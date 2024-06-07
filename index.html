@@ -1,53 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ocean FishMy</title>
-
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
     <header id="cabecalho">
-        <nav class="menu">
-            <img src="./img/Logotipo.png" alt="Logotipo" class="logotipo">
-            <div class="menu_paginas">
-                <a href="./paginas/sobre.html" class="pagina_sobre">Quem somos?</a>
-                <a href="./paginas/regulamento.html" class="pagina_regulamento">Regulamentos Atuais de pesca</a>
-                <a href="./paginas/lixo_oceano.html" class="pagina_lixo">Avistou Lixo ou Poluição nos Oceanos!</a>
-                <a href="./paginas/dicas.html" class="paginas_dicas">Dicas para pesca segura </a>
-                <a href="./paginas/cadastro.html" class="paginas_cadastro">
-                    <button>Cadastra-se</button>
-                </a>
-                <a href="./paginas/login.html" class="paginas_login">
-                    <button>Login</button>
-                </a>
+        <nav class="cabecalho_menu">
+            <a href="./index.html"><img src="./img/Logotipo.png" alt="" class="logotipo"></a>
+            <div class="paginas_cabecalho">
+                <a href="./pages/about.html" class="sobre">Sobre nós</a>
+                <a href="./pages/dicas.html" class="dicas">Dicas</a>
+                <a href="./pages/lixo.html" class="lixo">Avistou Lixo</a>
+                <a href="./pages/regulamentos.html" class="regulamentos">Regulamentos</a>
             </div>
+            <a href="./pages/cadastro.html" class="cadastro"> Práticas </a>
+            <a href="./pages/login.html" > <button class="login"> LOGIN </button> </a>
         </nav>
     </header>
-
-    <main >
+    
+    <main id="conteudo">
         <div class="conteudo">
-            <h1 class="centro_titulo">Ocean FishMy</h1>
-            <p calss="centro_conteudo">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae officiis, quo alias quos assumenda dolore est provident! Ab accusamus possimus in consequuntur quaerat quasi rem et tenetur quidem alias.
-            </p>
+            <h1 >Ocean FishMy</h1>
+            <a href="./pages/about.html"><button>Quem somos?</button></a>
         </div>
-
     </main>
-
-    <footer id="rodape">
-        <div class="rodape_app">
-            <h2>Redes Sociais</h2>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <i></i>
-            <i></i>
-            <i></i>
-        </div>
-
+    <footer class="rodape">
+        <ul class="menu">
+            <li class="item"><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li class="item"><a href="t.me/Ocean_FishMy_bot">Telegram</a></li>
+            <li class="item"><a href="https://www.portoseguro.com.br/fale-conosco/contatos/enderecos">Dar FeedBack</a></li> <li class="item">© 2024 Ocean FishMy | Global Solution | <a href="https://www.fiap.com.br/" target="_blank" >Fiap</a></li>
+        </ul>
     </footer>
- 
 </body>
 </html>
