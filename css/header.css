@@ -4,61 +4,97 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url(../img/navios2.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#cabecalho {
+    background-color: #EFEFE1;
+    box-shadow: 0 5px 10px 5px 
 }
 
-
-#conteudo {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+.cabecalho_menu {
     width: 100%;
-    min-height: 80vh;
-}
-
-.conteudo {
+    padding: 0 70px;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
     align-items: center;
-    width: 50%;
+    justify-content: center;
+    gap: 7vw;
 }
 
-.conteudo h1 {
-    color: #203150;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 60px;
+.logotipo {
+    width: 150px;
 }
 
-.conteudo p {
-    color: #203150;
-    margin-bottom: 35px;
-    font-size: 18px;
-    background: linear-gradient(180deg, #203150a9 0%, #efefe180 25%);
-    border-radius: 50px;
-    padding: 13%;
-    margin: 35px;
+.paginas_cabecalho {
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    position: relative;
+    align-items: center;
+    gap: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.conteudo button {
-    background-color: #203150;
-    color: white;
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 18px;
+.paginas_cabecalho a {
+    text-decoration: none;
     font-weight: 500;
+    color: #203150;
+}
+
+.paginas_cabecalho a:hover {
+    font-weight: 700;
+}
+
+.login{
+    width: 80px;
+    height: 45px;
+    color: white;
+    background-color: #203150;
     border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-left: 0;
+    
+}
+
+.login:hover {
+    scale: 1.1;
+}
+
+
+.cadastro {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #203150;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.cadastro:hover {
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    #cabecalho_menu {
+        align-items: center;
+        justify-content: center;
+    }
+    .cabecalho__comece {
+        width: 200px;
+    }
+    .logotipo {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #cabecalho_menu {
+        width: 100vw;
+        height: 20vh;
+        gap: 50px;
+    }
+    .cabecalho__comece {
+        width: 175px;
+        font-size: 12px;
+    }
+    .logotipo {
+        width: 120px;
+    }
 }
