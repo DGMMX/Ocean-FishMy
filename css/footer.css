@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    display: inline;
+    margin: 50px;
+    font-family: monospace, Times, serif;
+    list-style: none;
+    margin-bottom: 20px;
+    
+    
+}
+
+.lista {
+    display: grid;
+}
+
+.rodape .menu {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    background-color: #EFEFE1;
+    align-items: center;
+    justify-content: center;
+    height: 12vh;
+}
+
+.item a:hover {
+    text-decoration: none;
+    color: #203150;
+    font-weight: 600;
+    
+
+}
+
+@media (max-width: 576px) {
+    .link {
+        margin: 10px;
+        font-size: 14px;
+        
+    }
+
+    .rodape .menu {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
+    } 
+}
