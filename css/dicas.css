@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/dicas_pesca.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    width: 50%;
+}
+
+.conteudo h1 {
+    color: #203150;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.conteudo p {
+    color: #203150;
+    margin-bottom: 35px;
+    font-size: 18px;
+    background: linear-gradient(180deg, #203150a9 0%, #efefe180 25%);
+    border-radius: 50px;
+    padding: 13%;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+}
+
+.conteudo button {
+    background-color: #203150;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
