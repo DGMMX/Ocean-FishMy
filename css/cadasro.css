@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/cadastro.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    min-height: 80vh;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    width: 50%;
+}
+
+.conteudo h1 {
+    color: #203150;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+.conteudo p {
+    color: #203150;
+    margin-bottom: 35px;
+    font-size: 18px;
+    background: linear-gradient(180deg, #203150a9 0%, #efefe180 25%);
+    border-radius: 50px;
+    padding: 13%;
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+}
+
+.conteudo button {
+    background-color: #203150;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+}
+
+#cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro_caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #203150a9 0%, #efefe180 25%);
+    width: 700px;
+    height: auto;
+    margin: 100px 0;
+    padding: 2vw;
+    gap: 1vw;
+    
+    border-radius: 10px;
+    
+}
+
+.filas {
+    display: grid;
+    column-gap: 2vw;
+    margin-top: 10px;
+    
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#itens_cadastro {
+    border: 2px solid #203150;
+    border-radius: 50px;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+
+.confirmando {
+    border-radius: 15px;
+    align-self: center;
+    border: none;
+    width: 140px;
+    height: 80px;
+    margin-bottom: 15px;
+    background-color: #203150;
+    color: #efefe1;
+    font-size: 15px;
+    padding: 0.8vh;
+}
+
+.confirmando:hover {
+    scale: 1.1;
+    background-color: #203150;
+}
