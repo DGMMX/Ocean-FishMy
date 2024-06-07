@@ -4,6 +4,7 @@ Um projeto dado pela FIAP uma solução para a Global Solution 🌍
 ## Feito Por:
 Diego Bassalo Canals Silva 
 
+## Sites Inspirados: 
 [<img src="./img/site1.gif" alt="gif da tela site inspirado">](https://www.msc.org/what-we-are-doing/our-approach/what-is-sustainable-fishing)
 
 [<img src="./img/site2.gif" alt="gif da tela site inspirado">](https://www.seafoodwatch.org/)
